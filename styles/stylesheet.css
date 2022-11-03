@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+}
+header {
+  background-color: rgb(3, 163, 223);
+  display: grid;
+  padding: 2rem;
+}
+header img {
+  width: 16.66%
+  grid-column: 1/1;
+}
+header .contact-info {
+  grid-column: 2/2;
+  width: auto;
+  line-height: 0.5
+}
+header nav {
+  grid-column: 3/3;
+  float: right;
+  width: 16%;
+}
+.flex-box {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.lesson-home {
+  text-align: center;
+}
+footer {
+  background-image: url("../img/footerImage.jpg");
+  padding: 2rem;
+}
