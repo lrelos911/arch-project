@@ -29,6 +29,7 @@ header .contact-info {
   line-height: 0.5
 }
 header nav {
+  font-size: 20px;
   grid-column: 12/12;
   float: right;
   width: 16%;
@@ -70,4 +71,24 @@ section {
 .instructor-blurb .instructor-profile {
   grid-column: 2/12;
   margin: 2rem;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
+.contact-info {
+  font-size: 20px;
+  color: white;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
